@@ -15,3 +15,4 @@ while True:
         else:
             print(total)
             break
+# Answer: 4613732

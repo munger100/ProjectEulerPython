@@ -8,3 +8,4 @@ while number * number < big_number:
     number += 1
 
 print(int(big_number))
+# Answer: 6857

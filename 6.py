@@ -10,3 +10,4 @@ for y in num:
 final = total[0] - total[1]
 
 print(final)
+# Answer: 25164150

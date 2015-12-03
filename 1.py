@@ -5,3 +5,5 @@ for number in range(1000):
         total += number
 
 print(total)
+
+# Answer: 233168

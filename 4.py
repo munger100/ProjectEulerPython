@@ -8,3 +8,4 @@ for one in range(100, 1000):
                 largest = num
 
 print("Largest Palindrome Product of two 3 digit numbers is %s." % largest)
+# Answer: 906609

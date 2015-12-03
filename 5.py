@@ -11,3 +11,4 @@ for num in range(2, 999999999, 2):
         if isDivisible(num):
             print(num)
             sys.exit()
+# Answer: 232792560
