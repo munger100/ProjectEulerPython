@@ -19,3 +19,4 @@ for num in range(3, 1000000):
 print("Longest Sequence: %s, Starting Number: %s" % (highest[0], highest[1]))
 
 # Answer: Longest Sequence: 524, Starting Number: 837799
+# Answer: 837799

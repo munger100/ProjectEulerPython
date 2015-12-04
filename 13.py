@@ -8,3 +8,4 @@ for i in number:
     total += int(i)
 
 print(str(total)[:10])
+# Answer: 5537376230

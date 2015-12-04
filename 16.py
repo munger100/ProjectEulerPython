@@ -7,3 +7,4 @@ for i in list(str(number)):
     total += int(i)
 
 print(total)
+# Answer: 1366

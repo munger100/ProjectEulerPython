@@ -1,13 +1,8 @@
 import time
 from scripts import *
 
-file = open("primes.txt", "r+")
-total = 2  # Starting with 2 because the code is made to skip all Even numbers, and 2 is the only even prime.
+total = 0
 t = [None, None]
-primes = {2, 3}
-highest_prime = 0
-
-
 
 t[0] = time.time()
 

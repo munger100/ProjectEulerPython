@@ -4,7 +4,7 @@ import math
 total = 0
 natural_number = 1
 highestDivisor = 0
-start_time = int(time.time())
+start_time = time.time()
 goal = 500
 
 
@@ -27,4 +27,5 @@ while count_divisors(total) < 500:
     natural_number += 1
 
 print(total)
-print("Time Taken: " + str(int(time.time() - start_time)))
+print("Time Taken: " + str(time.time() - start_time) + " seconds")
+# Answer: 76576500

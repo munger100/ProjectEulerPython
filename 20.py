@@ -14,3 +14,4 @@ def start(num):
 
 
 start(100)
+# Answer: 648
