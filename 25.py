@@ -14,3 +14,4 @@ while True:
         print(number)
         print(counter)
         sys.exit(number)
+# Answer: 4782

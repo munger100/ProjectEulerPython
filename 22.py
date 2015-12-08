@@ -30,3 +30,4 @@ for name in names:
     total += find_name_score(name)
 
 print(total)
+# Answer: 871198282

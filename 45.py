@@ -19,3 +19,4 @@ def hexagon(num):
 
 
 print(triangle(6))
+# Answer:

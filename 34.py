@@ -15,3 +15,4 @@ for number in range(3, scripts.factorial(9) * 9):  # Max = 3 265 920
         print("At: " + str(number))
 
 print(sum)
+# Answer: 145

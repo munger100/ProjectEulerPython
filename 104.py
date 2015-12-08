@@ -15,4 +15,4 @@ while True:
     number_one = number
     if sorted(list(str(number)[-9:])) == sorted(pandigitals) and sorted(list(str(number)[:9])) == sorted(pandigitals):
         print("F%s = %s" % (counter, number))
-        sys.exit()
+        sys.exit("F%s = %s" % (counter, number))

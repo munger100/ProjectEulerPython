@@ -28,4 +28,4 @@ for word in words:
         counter += 1
 
 print(counter)
-
+# Answer: 162

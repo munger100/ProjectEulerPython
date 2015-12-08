@@ -415,3 +415,5 @@ for hand in hands:
         print(winner, firsthand, secondhand, do(firsthand, secondhand))
 
 print("Player 1 Wins: %s \nPlayer 2 Wins: %s\nDraws: %s (There shouldn't be any)" % (player1wins, player2wins, draws))
+# The most challenging problem yet
+# Answer: 376

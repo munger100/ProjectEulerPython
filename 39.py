@@ -29,4 +29,4 @@ for p in range(1, 1001):
         highest = count
         value = p
         print("Highest Count: %s, Value to that Count: %s" % (highest, value))
-
+# Answer: 39
