@@ -15,3 +15,4 @@ for a in range(1, 100):
 
 print("Largest number: A = %s, B = %s, Number = %s" % (largest[1], largest[2], largest[0]))
 print("Answer: %s" % largest[3])
+# Answer: 972

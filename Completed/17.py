@@ -50,3 +50,4 @@ total += get_count("one") + get_count("thousand")  # 1000
 print("one thousand")
 
 print("Total: %s" % total)
+# Answer: 21124
