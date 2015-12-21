@@ -1,8 +1,6 @@
-largest = [0, 0, 0, 0]
-total = 0
+largest = [0] * 4
 
 for a in range(1, 100):
-    print("At A = %s" % a)
     for b in range(1, 100):
         count = 1
         total = 0
