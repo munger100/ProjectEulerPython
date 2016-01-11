@@ -28,9 +28,16 @@ def s(n):
     return total
 
 
+def generator():
+    with open("values.csv", "w+") as f:
+        f.write("x,p(x)\n")
+        for i in range(1, 1000):
+            f.write("%s,%s\n" % (i, p(i)))
+
+
 t = 10
 for a in range(1, 19):
     t *= 10
-z = t
-
-print("P(%s) = %s" % (z, s(z)))
+z = 13
+generator()
+# print("P(%s) = %s" % (z, p(z)))
