@@ -2,11 +2,11 @@ import string
 
 counter = 0
 
-with open('42. zwords.txt', 'r') as f:
+with open('../Sources/42 Coded triangle numbers words.txt', 'r') as f:
     data = f.read()
     words = data.split("\",\"")
 
-with open('42. zvalues.txt', 'r') as r:
+with open('../Sources/42 Coded Triangle Numbers values.txt', 'r') as r:
     values = r.read().split("\n")
 
 chars = list(string.ascii_uppercase)

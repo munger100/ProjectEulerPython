@@ -9,7 +9,7 @@ def take(n, iterable):
     return list(islice(iterable, n))
 
 
-with open("poker.txt") as f:
+with open("../Sources/54 Poker Hands.txt") as f:
     rawdata = f.read()
 
 hands = rawdata.split("\n")

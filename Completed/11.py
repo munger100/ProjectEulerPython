@@ -1,6 +1,6 @@
 __author__ = 'Matthew'
 
-with open("grid 20x20", "r") as file:
+with open("../Sources/11 Largest Product in a Grid", "r") as file:
     data = file.read()
     file.close()
 lines = []

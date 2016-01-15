@@ -1,5 +1,5 @@
 total = 0
-with open("number.txt", "r") as f:
+with open("../Sources/13 Large Sum.txt", "r") as f:
     data = f.read()
 
 number = data.split("\n")

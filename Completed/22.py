@@ -1,6 +1,6 @@
 import string
 
-with open('names.txt', 'r') as f:
+with open('../Sources/22 Names Scores.txt', 'r') as f:
     data = f.read()
 
 chars = list(string.ascii_uppercase)

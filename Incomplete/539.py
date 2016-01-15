@@ -1,3 +1,4 @@
+__author__ = 'Matthew'
 pairs = {}
 
 
@@ -29,7 +30,7 @@ def s(n):
 
 
 def generator():
-    with open("values.csv", "w+") as f:
+    with open("../Sources/539 values.csv", "w+") as f:
         f.write("x,p(x)\n")
         for i in range(1, 1000):
             f.write("%s,%s\n" % (i, p(i)))

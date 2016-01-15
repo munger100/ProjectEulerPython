@@ -1,4 +1,4 @@
-with open("67 Max Path Sum", "r") as f:
+with open("../Sources/67 Max Path Sum II", "r") as f:
     data = f.read()
 
 
@@ -27,7 +27,6 @@ pyramid = reverse(sort_into_pyramid(data))
 for i in range(1, len(pyramid)):
     for j in pyramid[i]:
         index = pyramid[i].index(j)
-        pyramid[i][index] = pyramid[i][index] + greatest(pyramid[i - 1][index], pyramid[i - 1][index + 1])
+        pyramid[i][index] += greatest(pyramid[i - 1][index], pyramid[i - 1][index + 1])
 
 print(pyramid[-1])
-# Answer: 1074

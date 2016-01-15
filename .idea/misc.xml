@@ -10,8 +10,5 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/539.py" />
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="Python 3.5.0 (C:\Users\Matthew\AppData\Local\Programs\Python\Python35-32\python.exe)" project-jdk-type="Python SDK" />
 </project>
