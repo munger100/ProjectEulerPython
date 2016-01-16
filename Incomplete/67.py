@@ -1,13 +1,17 @@
-with open("../Sources/67 Max Path Sum II", "r") as f:
+with open("../Sources/67 Max Path Sum II 2", "r") as f:
     data = f.read()
 
 
 def sort_into_pyramid(data):
     array = []
     lines = data.split('\n')
+    count = 0
     for line in lines:
-        nums = line.split(' ')
-        array.append([int(num) for num in nums])
+        count += 1
+        print(count)
+        if count != 101:
+            nums = line.split(' ')
+            array.append([int(num) for num in nums])
     return array
 
 

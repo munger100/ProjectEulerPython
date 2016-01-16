@@ -1,40 +1,40 @@
 max = 28123
-total = 0
-deficients = []
-perfects = []
+count = 0
 abundants = []
 
 
+def get_divisors(n):
+    d = []
+    for i in range(1, n // 2 + 1):
+        if n % i == 0:
+            d.append(i)
+    return d
+
+
 def is_abundant(n):
-    l = []
     t = 0
-    for num in range(1, n + 1):
-        if n % num == 0 and num is not n:
-            l.append(num)
-    for num in l:
+    # t += [num for num in get_divisors(n)]
+    for num in get_divisors(n):
         t += num
-    if t > n:
-        abundants.append(n)
-        return True
-    else:
-        return False
+    return t > n
 
 
 def can_be_sum(n):
     for a in abundants:
         for b in abundants:
             if a + b == i:
-                return False
+                return True
             else:
                 continue
-    return True
+    return False
 
 
 for i in range(1, max + 1):
-    if can_be_sum(i):
-        total += i
-    print(i) if i % 1000 == 0 else None
-    is_abundant(i)
+    print("At %s" % i) if i % 1000 == 0 else None
+    abundants.append(i) if is_abundant(i) else None
+    if not can_be_sum(i):
+        count += i
 
-print(total)
-print(abundants)
+
+print("Count: {c}".format(c = count))
+print("Abundants: {a}".format(a = abundants))
