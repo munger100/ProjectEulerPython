@@ -1,4 +1,4 @@
-max = 28123
+maximum = 28123
 count = 0
 abundants = []
 
@@ -21,7 +21,7 @@ def is_abundant(n):
 
 def can_be_sum(n):
     for a in abundants:
-        for b in abundants:
+        for b in reversed(abundants):
             if a + b == i:
                 return True
             else:
@@ -29,12 +29,13 @@ def can_be_sum(n):
     return False
 
 
-for i in range(1, max + 1):
-    print("At %s" % i) if i % 1000 == 0 else None
+for i in range(1, maximum + 1):
+    print("At %s on %s" % (i, maximum)) if i % 1000 == 0 else None
     abundants.append(i) if is_abundant(i) else None
     if not can_be_sum(i):
         count += i
 
-
 print("Count: {c}".format(c = count))
 print("Abundants: {a}".format(a = abundants))
+
+# Answer: 4179871
