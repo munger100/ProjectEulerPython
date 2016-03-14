@@ -13,3 +13,7 @@ def isPrime(num):
             if num % i == 0:
                 return False
     return True
+
+
+def fib(num):
+    return (num - 1) + (num - 2)
