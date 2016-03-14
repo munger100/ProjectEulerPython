@@ -29,3 +29,4 @@ while not completed:
         if sorted(list(str(number)[-9:])) == pandigitals:
             print("F%s = %s" % (counter, number))
             completed = True
+# Answer: 329468
