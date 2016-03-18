@@ -70,4 +70,4 @@ while not solved:
         counter += 1
 
 print("Answer is %i, Took about %i seconds" % (counter, time.time() - start_time))
-# Answer: 73162890, Time: 144 seconds
+# Answer: 73162890, Time on MSI: 144 seconds, Time on ASUS:
