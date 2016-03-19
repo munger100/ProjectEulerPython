@@ -1,9 +1,9 @@
-from Sources import Scripts
+from Sources import scripts
 
 
 def add(num):
     sum = 0
-    num = Scripts.factorial(num)
+    num = scripts.factorial(num)
     string = list(str(num))
     for i in string:
         sum += int(i)

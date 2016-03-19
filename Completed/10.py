@@ -1,6 +1,6 @@
 import time
 
-from Sources import Scripts
+from Sources import scripts
 
 total = 0
 t = [None, None]
@@ -9,7 +9,7 @@ t[0] = time.time()
 
 for number in range(2, 2000000):
     if number == 2 or number % 2 != 0:
-        if Scripts.isPrime(number):
+        if scripts.isPrime(number):
             total += number
         if number % 10001 == 0:
             t[1] = time.time()
