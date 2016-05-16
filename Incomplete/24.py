@@ -1,8 +1,12 @@
-numbers_default = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-numbers = numbers_default
-num = []
-count = 0
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+i = 1000000000
+th = 0
 
+
+def is_lex(num):
+    return sorted(list(str(num))) == numbers
+
+print(numbers)
 
 # for num[0] in numbers:
 #     numbers.remove(num[0])
