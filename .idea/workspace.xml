@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e43343-a108-4a57-bd58-f4e5d165ad19" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Completed/33.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Completed/36.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjectEulerPython.iws" />
@@ -34,6 +34,7 @@
     <SUITE FILE_PATH="coverage/ProjectEulerPython$53.coverage" NAME="53 Coverage Results" MODIFIED="1463165569994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Incomplete" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$30.coverage" NAME="30 Coverage Results" MODIFIED="1449598607635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$1.coverage" NAME="1 Coverage Results" MODIFIED="1449170239538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectEulerPython$36.coverage" NAME="36 Coverage Results" MODIFIED="1464288660367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Incomplete" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$12.coverage" NAME="12 Coverage Results" MODIFIED="1449258137831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$18__1_.coverage" NAME="18 (1) Coverage Results" MODIFIED="1452798365015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Completed" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$17__1_.coverage" NAME="17 (1) Coverage Results" MODIFIED="1450613528244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Completed" />
@@ -68,7 +69,7 @@
     <SUITE FILE_PATH="coverage/ProjectEulerPython$15.coverage" NAME="15 Coverage Results" MODIFIED="1449258228240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$9.coverage" NAME="9 Coverage Results" MODIFIED="1449170749876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEulerPython$399.coverage" NAME="399 Coverage Results" MODIFIED="1449599544358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProjectEulerPython$33.coverage" NAME="33 Coverage Results" MODIFIED="1463687422843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Incomplete" />
+    <SUITE FILE_PATH="coverage/ProjectEulerPython$33.coverage" NAME="33 Coverage Results" MODIFIED="1464286542137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Incomplete" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -79,16 +80,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Completed/2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="24.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Incomplete/24.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,15 +120,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="33.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="33.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Completed/33.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
+            <state relative-caret-position="765">
               <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
               <folding>
                 <element signature="e#62#307#0" expanded="false" />
                 <element signature="e#332#379#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="36.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Completed/36.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -207,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/numbers in letters.txt" />
         <option value="$PROJECT_DIR$/17.py" />
         <option value="$PROJECT_DIR$/56.py" />
         <option value="$PROJECT_DIR$/Completed/24.py" />
@@ -258,6 +258,7 @@
         <option value="$PROJECT_DIR$/Incomplete/27.py" />
         <option value="$PROJECT_DIR$/Completed/27.py" />
         <option value="$PROJECT_DIR$/Incomplete/33.py" />
+        <option value="$PROJECT_DIR$/Incomplete/36.py" />
       </list>
     </option>
   </component>
@@ -279,7 +280,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
-    <option name="height" value="1049" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -325,8 +326,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -389,7 +390,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,25 +415,7 @@
       <recent name="C:\Users\Matthew\Desktop\ProjectEulerPython\Sources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.33">
-    <configuration default="false" name="69" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Completed" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ProjectEulerPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Incomplete/69.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.36">
     <configuration default="false" name="29" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,6 +484,24 @@
       <module name="ProjectEulerPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Completed/33.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="36" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Incomplete" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ProjectEulerPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Completed/36.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -1132,19 +1133,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.69" />
-      <item index="1" class="java.lang.String" itemvalue="Python.29" />
-      <item index="2" class="java.lang.String" itemvalue="Python.26" />
-      <item index="3" class="java.lang.String" itemvalue="Python.27" />
-      <item index="4" class="java.lang.String" itemvalue="Python.33" />
+      <item index="0" class="java.lang.String" itemvalue="Python.29" />
+      <item index="1" class="java.lang.String" itemvalue="Python.26" />
+      <item index="2" class="java.lang.String" itemvalue="Python.27" />
+      <item index="3" class="java.lang.String" itemvalue="Python.33" />
+      <item index="4" class="java.lang.String" itemvalue="Python.36" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.33" />
-        <item index="1" class="java.lang.String" itemvalue="Python.27" />
-        <item index="2" class="java.lang.String" itemvalue="Python.26" />
-        <item index="3" class="java.lang.String" itemvalue="Python.29" />
-        <item index="4" class="java.lang.String" itemvalue="Python.69" />
+        <item index="0" class="java.lang.String" itemvalue="Python.36" />
+        <item index="1" class="java.lang.String" itemvalue="Python.33" />
+        <item index="2" class="java.lang.String" itemvalue="Python.27" />
+        <item index="3" class="java.lang.String" itemvalue="Python.26" />
+        <item index="4" class="java.lang.String" itemvalue="Python.29" />
       </list>
     </recent_temporary>
   </component>
@@ -1221,12 +1222,14 @@
       <workItem from="1463421654448" duration="6164000" />
       <workItem from="1463507993059" duration="5470000" />
       <workItem from="1463680683807" duration="908000" />
-      <workItem from="1463681609106" duration="5585000" />
+      <workItem from="1463681609106" duration="5751000" />
+      <workItem from="1464112934804" duration="1206000" />
+      <workItem from="1464285623570" duration="2978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142686000" />
+    <option name="totallyTimeSpent" value="147036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1238,7 +1241,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1049" extended-state="2" />
+    <frame x="0" y="0" width="1920" height="1043" extended-state="2" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1248,7 +1251,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18064517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17965367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1282,7 +1285,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1291,7 +1294,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.IntelliJIdea14/system/python_stubs/549014404/builtins.py" />
     <entry file="file://$PROJECT_DIR$/Completed/17.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1608,7 +1610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Completed/33.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
+        <state relative-caret-position="765">
           <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
           <folding>
             <element signature="e#62#307#0" expanded="false" />
@@ -1650,6 +1652,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Completed/36.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
