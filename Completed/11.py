@@ -29,6 +29,7 @@ def check_greatest(greatest, product):
     else:
         return greatest
 
+
 for line in grid:
     line_count += 1
     for number in line:
@@ -59,7 +60,6 @@ for line in grid:
             greatest_product = check_greatest(greatest_product, product)
 
     number_count = 0
-
 
 print("Greatest Product: %s" % greatest_product)
 # Answer: 70600674

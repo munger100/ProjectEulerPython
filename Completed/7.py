@@ -5,8 +5,6 @@ from Sources import scripts
 maximum = 1000000000
 counter = 0
 
-
-
 for number in range(2, 1000000000):
     if number is 2 or number % 2 != 0:
         if scripts.isPrime(number):

@@ -2,6 +2,7 @@ import math
 
 highest = 0
 
+
 def sqrt(num):
     return math.sqrt(num)
 
@@ -12,6 +13,7 @@ def square(num):
 
 def is_right(a, b, c):
     return square(a) + square(b) == square(c)
+
 
 for p in range(1, 1001):
     count = 0
@@ -29,4 +31,4 @@ for p in range(1, 1001):
         highest = count
         value = p
         print("Highest Count: %s, Value to that Count: %s" % (highest, value))
-# Answer: 39
+        # Answer: 39

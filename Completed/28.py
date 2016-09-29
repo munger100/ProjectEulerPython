@@ -4,6 +4,7 @@ largest_number = 1001 * 1001
 init = 1001 + 2
 total = 0
 
+
 def generate():
     arr = []
     for i in range(1, init, 2):

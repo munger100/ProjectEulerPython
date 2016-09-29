@@ -5,5 +5,6 @@ def gcd(a, b):
         t = (i if a % i == 0 and b % i == 0 else t)
     return t
 
+
 def h(n):
     None

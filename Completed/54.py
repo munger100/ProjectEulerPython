@@ -338,7 +338,6 @@ def create_counter(list):
     return cnt
 
 
-
 def sort_backwards(list):
     """
         Should give a list such as: [1, 8, 2, 2, 3, 5, 7, 5, 7,9,9,9]

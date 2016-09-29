@@ -48,6 +48,7 @@ def print_if(num, trig):
 def long_enough(num, smallest):
     return len(num) >= len(smallest)
 
+
 start_time = time.time()
 entries = remove_duplicates(data)
 smallest_combo = get_smallest_combo(entries)
