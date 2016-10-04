@@ -19,7 +19,8 @@ def check(total):
     else:
         return 0
 
+
 def recursion(depth):
     for piece in currencies_reverse:
         print(None)
-        # Trued recursion, failed badly
+        # Tried recursion, failed badly

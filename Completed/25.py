@@ -14,4 +14,4 @@ while True:
         print(number)
         print(counter)
         sys.exit(number)
-# Answer: 4782
+        # Answer: 4782

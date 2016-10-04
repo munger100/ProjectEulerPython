@@ -35,7 +35,7 @@ for i in range(1, maximum + 1):
     if not can_be_sum(i):
         count += i
 
-print("Count: {c}".format(c = count))
-print("Abundants: {a}".format(a = abundants))
+print("Count: {c}".format(c=count))
+print("Abundants: {a}".format(a=abundants))
 
 # Answer: 4179871
