@@ -17,3 +17,18 @@ def isPrime(num):
 
 def fib(num):
     return (num - 1) + (num - 2)
+
+
+def get_divisors(num):
+    d = []
+    if num < 100:
+        for i in range(1, num + 1):
+            if num % i == 0:
+                d.append(i)
+    else:
+        for i in range(1, int(num/2) + 1):
+            if num % i == 0:
+                d.append(i)
+        d.append(num)
+    return d
+
