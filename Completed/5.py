@@ -1,16 +1,13 @@
-import sys
-
-
-def isDivisible(number):
-    for i in range(1, 21):
+def is_divisible(number, max):
+    for i in range(1, max + 1):
         if number % i != 0:
             return False
     return True
 
 
-for num in range(2, 999999999, 2):
-    if num % 2 == 0:  # Gotta be a multiple of 2.
-        if isDivisible(num):
-            print(num)
-            sys.exit()
-            # Answer: 232792560
+num = 222792000
+while not is_divisible(num, 20):
+    num += 2
+
+print(num)
+# Answer: 232792560

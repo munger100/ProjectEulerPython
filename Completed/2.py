@@ -1,5 +1,3 @@
-import sys
-
 number = 0
 number_one = 0
 number_two = 1
@@ -15,4 +13,5 @@ while True:
         else:
             print(total)
             break
-            # Answer: 4613732
+
+# Answer: 4613732

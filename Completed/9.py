@@ -8,7 +8,7 @@ def pythagoreantriplet():
 
 
 abc = pythagoreantriplet()
-product = abc[0] * abc[1] * abc[2]  # All in an array just for you Mr Spence :)
+product = abc[0] * abc[1] * abc[2]
 
 print("The product of the pythagorean triplet for which a + b + c = 1000 is: ---> %s" % product)
 # Answer: 31875000
