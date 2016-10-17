@@ -10,8 +10,6 @@ a = [0]
 length = len(arr)
 for line in arr:
     count += 1
-    if count < 700:
-        continue
     print("At %s of %s" % (count, length))
     pair = line.split(",")
     b = int(pair[0])
