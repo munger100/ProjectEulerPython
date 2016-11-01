@@ -5,14 +5,13 @@ def factorial(num):
         return num * factorial(num - 1)
 
 
-def isPrime(num):
-    if num == 1:
-        return False
-    if num == 2:
-        return True
-    for i in range(2, num - 1):
-        if num % i == 0:
+def is_prime(n):
+    if n == 2 or n == 3: return True
+    if n % 2 == 0 or n < 2: return False
+    for i in range(3, int(n ** 0.5) + 1, 2):  # only odd numbers
+        if n % i == 0:
             return False
+
     return True
 
 
@@ -27,9 +26,8 @@ def get_divisors(num):
             if num % i == 0:
                 d.append(i)
     else:
-        for i in range(1, int(num/2) + 1):
+        for i in range(1, int(num / 2) + 1):
             if num % i == 0:
                 d.append(i)
         d.append(num)
     return d
-

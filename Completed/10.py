@@ -9,7 +9,7 @@ t[0] = time.time()
 
 for number in range(2, 2000000):
     if number == 2 or number % 2 != 0:
-        if Scripts.isPrime(number):
+        if Scripts.is_prime(number):
             total += number
         if number % 10001 == 0:
             t[1] = time.time()

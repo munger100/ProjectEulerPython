@@ -7,7 +7,7 @@ counter = 0
 
 for number in range(2, 1000000000):
     if number is 2 or number % 2 != 0:
-        if Scripts.isPrime(number):
+        if Scripts.is_prime(number):
             counter += 1
             if counter % 1000 == 0:
                 print("Primes Found: " + str(counter))
