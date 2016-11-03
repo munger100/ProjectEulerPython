@@ -18,8 +18,18 @@
 #
 # print(arr)
 
-a = "asdasds"
-b = list(a)
-print(a)
-print(b)
-print(''.join(b))
+# a = "asdasds"
+# b = list(a)
+# print(a)
+# print(b)
+# print(''.join(b))
+
+
+def is_pandigital(n):
+    n = str(n)
+    for i in range(1, len(n) + 1):
+        if str(i) not in n:
+            return False
+    return True
+
+print(is_pandigital(999999999))
