@@ -1,4 +1,3 @@
-__author__ = 'Matthew'
 import sys
 from itertools import islice
 from collections import Counter

@@ -1,4 +1,4 @@
-from Sources.Scripts import is_prime
+from Scripts import is_prime
 
 
 def is_pandigital(n):

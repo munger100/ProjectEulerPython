@@ -1,5 +1,3 @@
-from Sources.Scripts import is_prime
-
 limit = 1000000
 
 
@@ -25,14 +23,14 @@ for i in range(1, limit, 2):
         if e in list(str(i)):
             break
     k = i
-    if is_prime(k):
+    if i(k):
         if len(str(k)) == 1:
             print(i)
             count += 1
             continue
         for j in range(1, len(str(k))):
             k = next_perm(k)
-            if not is_prime(k):
+            if not i(k):
                 break
             if j == len(str(i)) - 1:
                 count += 1

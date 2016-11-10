@@ -1,5 +1,3 @@
-__author__ = 'Matthew'
-
 import time
 
 pandigitals = sorted(list("123456789"))

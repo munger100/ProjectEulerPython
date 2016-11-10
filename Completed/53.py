@@ -1,6 +1,6 @@
-from Sources import scripts
+from Scripts import factorial
 
-f = scripts.factorial
+f = factorial
 counter = 0
 
 
