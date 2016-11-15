@@ -1,5 +1,3 @@
-__author__ = 'Matthew'
-
 currencies_default = [1, 2, 5, 10, 20, 50, 100, 200]  # 1p, 2p, 5p, 10p, 20p, 50p, 1E, 2E
 currencies_reverse = currencies_default.reverse()
 two_euros = 200

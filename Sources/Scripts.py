@@ -31,3 +31,12 @@ def get_divisors(num):
                 d.append(i)
         d.append(num)
     return d
+
+def is_pandigital(n):
+    n = str(n)
+    if len(n) == 9:
+        for i in range(1, 10):
+            if str(i) not in n:
+                return False
+        return True
+    return False
