@@ -1,7 +1,7 @@
 from Scripts import is_prime
 
 for t in range(0, 10000):
-    if t % 100 == 0:
+    if t % 1000 == 0:
         print("t = %s" % t)
     arr = []
     for i in range(0, 10000):
