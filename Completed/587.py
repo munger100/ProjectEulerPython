@@ -1,6 +1,7 @@
 from math import cos, sin, tan, atan, acos, asin, pi, sqrt
 from sympy import *
-
+# from mpmath import *
+import mpmath
 
 def rad_to_deg(rad):
     return rad * 180 / pi
